@@ -50,7 +50,6 @@ async function replaceAuthorName(authorEl) {
   }
 }
 
-// Debounce処理
 function debounce(fn, delay) {
   let timeout;
   return (...args) => {
@@ -64,7 +63,6 @@ const scanChatDebounced = debounce(() => {
     .forEach(replaceAuthorName);
 }, 200);
 
-// Observer
 function startObserver() {
   const chat = document.querySelector("yt-live-chat-item-list-renderer");
   if (!chat) {
@@ -90,7 +88,6 @@ function startObserver() {
   setInterval(scanChatDebounced, 5000);
 }
 
-// SPA遷移検知
 function installReinitHook() {
   window.addEventListener("yt-page-data-updated", () => {
     log("Page updated → reinit");
@@ -116,3 +113,4 @@ if (document.readyState === "complete" || document.readyState === "interactive")
     init();
   });
 }
+
