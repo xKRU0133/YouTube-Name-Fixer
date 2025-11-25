@@ -28,7 +28,7 @@ YouTubeライブチャットに表示される **@ハンドル名** を、視認
 `<yt-live-chat-item-list-renderer>` を監視し、その内部の公開情報から表示名を抽出して置換します。YouTubeの内部機能には干渉しません。
 
 ### インストール（開発者モード）
-1. リポジトリをダウンロード  
+1. YouTube Live Chat Name Fixer.zipをダウンロードし解凍 
 2. `chrome://extensions` を開く  
 3. 開発者モードを ON  
 4. 「パッケージ化されていない拡張機能を読み込む」からフォルダを選択
@@ -68,7 +68,7 @@ The extension observes `<yt-live-chat-item-list-renderer>` elements and extracts
 Only the local DOM is altered, ensuring full compliance with platform policies.
 
 ### Installation (Developer Mode)
-1. Download the repository  
+1. Download the YouTube Live Chat Name Fixer.zip and unzip 
 2. Open `chrome://extensions`  
 3. Enable Developer Mode  
 4. Load the folder as an unpacked extension  
