@@ -1,15 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Live Chat Name Fixer",
-  "version": "1.5",
-  "description": "A browser extension that converts YouTube Live Chat handles into channel display names.",
+  "name": "YouTube Live 名前表示",
+  "version": "2.5",
+  "description": "YouTubeライブチャットに表示される@ハンドル名を、視認性の高いチャンネル表示名に自動で置き換える拡張機能です。",
+  "permissions": ["storage"],
+  
   "action": {
+    "default_popup": "popup.html",
+    "default_title": "Management cache",
     "default_icon": {
       "128": "icon/icon.png"
     }
   },
-  "permissions": ["scripting", "activeTab"],
-  "host_permissions": ["https://www.youtube.com/*"],
+  
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
@@ -22,4 +25,3 @@
     "128": "icon/icon.png"
   }
 }
-
