@@ -1,5 +1,5 @@
-# YouTube Live Chat Name Fixer  
-A browser extension that converts YouTube Live Chat handles into channel display names.
+# YouTube Name Fixer  
+A browser extension that converts YouTube Live Chat and comments handles into channel display names.
 
 ---
 
