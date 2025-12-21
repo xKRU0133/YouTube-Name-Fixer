@@ -6,7 +6,7 @@ A browser extension that converts YouTube Live Chat handles into channel display
 ## 日本語説明
 
 ### 概要
-YouTubeライブチャットに表示される **@ハンドル名** を、視認性の高い **チャンネル表示名** に自動で置き換える拡張機能です。
+YouTubeライブチャット、コメント欄に表示される **@ハンドル名** を、視認性の高い **チャンネル表示名** に自動で置き換える拡張機能です。
 
 ### 規約遵守について
 本拡張機能は以下の理由により **YouTube利用規約・API規約およびGoogle Chrome拡張ポリシーに違反しません**。
@@ -25,7 +25,7 @@ YouTubeライブチャットに表示される **@ハンドル名** を、視認
 - プライバシー保護：外部送信なし
 
 ### 動作方法
-`<yt-live-chat-item-list-renderer>` を監視し、その内部の公開情報から表示名を抽出して置換します。YouTubeの内部機能には干渉しません。
+`<yt-live-chat-item-list-renderer>` `<ytd-comments#comments>`を監視し、その内部の公開情報から表示名を抽出して置換します。YouTubeの内部機能には干渉しません。
 
 ### インストール（開発者モード）
 1. YouTube Live Chat Name Fixer.zipをダウンロードし解凍 
@@ -45,7 +45,7 @@ MIT License
 ## English Description
 
 ### Overview
-This extension automatically replaces YouTube Live Chat **handle names (@username)** with their **channel display names** for improved readability.  
+This extension automatically replaces YouTube Live Chat and comments **handle names (@username)** with their **channel display names** for improved readability.  
 
 ### Compliance Statement
 This extension **does NOT violate YouTube’s Terms of Service, API policies, or the Chrome Extension Program policies** because:
@@ -64,8 +64,7 @@ Therefore, it is **a safe and permitted form of client-side UI customization**.
 - Privacy-safe: no external communication
 
 ### How It Works
-The extension observes `<yt-live-chat-item-list-renderer>` elements and extracts display names from their public internal data.  
-Only the local DOM is altered, ensuring full compliance with platform policies.
+The extension observes `<ytThe extension observes `<yt-live-chat-item-list-renderer>`and`<ytd-comments#comments>` elements and extracts display names from their public internal data.  red, ensuring full compliance with platform policies.
 
 ### Installation (Developer Mode)
 1. Download the YouTube Live Chat Name Fixer.zip and unzip 
