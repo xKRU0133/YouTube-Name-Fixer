@@ -64,7 +64,7 @@ Therefore, it is **a safe and permitted form of client-side UI customization**.
 - Privacy-safe: no external communication
 
 ### How It Works
-The extension observes `<ytThe extension observes `<yt-live-chat-item-list-renderer>` `<ytd-comments#comments>` elements and extracts display names from their public internal data.  red, ensuring full compliance with platform policies.
+The extension observes `<yt-live-chat-item-list-renderer>` `<ytd-comments#comments>` elements and extracts display names from their public internal data.  red, ensuring full compliance with platform policies.
 
 ### Installation (Developer Mode)
 1. Download the YouTube Live Chat Name Fixer.zip and unzip 
