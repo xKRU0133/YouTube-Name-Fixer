@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #111;
+  color: #fff;
+  width: 350px;
+  padding: 20px;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  background: #1e88e5;
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+button#clear {
+  background: #d32f2f;
+}
+
+button#clear:hover {
+  background-color: #9a0007;
+}
+
+button#add {
+  width: 29%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: 0;
+}
+
+input#handleName {
+  border-radius: 35px;
+  padding: 10px 12px;
+  width: 65%;
+  font-size: 14px;
+  border: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+input#handleName::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input#handleName:focus {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 35px;
+  padding: 30px 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  z-index: 1;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+#input {
+  display: flex;
+  gap: 0;
+  margin-top: 8px;
+}
+
+#input.hidden {
+  display: none;
+}
+
+.list {
+  margin-top: 12px;
+  max-height: 155px;
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.list > div {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.list > div:last-child {
+  border-bottom: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: #ff4646;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 35px;
+  background-color: rgba(255, 70, 70, 0.15);
+  border: 1px solid rgba(255, 70, 70, 0.3);
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
