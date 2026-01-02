@@ -1,7 +1,3 @@
-# YouTube Name Fixer  
-A browser extension that converts YouTube Live Chat and comments handles into channel display names.
-
----
 
 ## 日本語説明
 
@@ -27,11 +23,8 @@ YouTubeライブチャット、コメント欄に表示される **@ハンドル
 ### 動作方法
 `<yt-live-chat-item-list-renderer>` `<ytd-comments#comments>`を監視し、その内部の公開情報から表示名を抽出して置換します。YouTubeの内部機能には干渉しません。
 
-### インストール（開発者モード）
-1. YouTube Live Chat Name Fixer.zipをダウンロードし解凍 
-2. `chrome://extensions` を開く  
-3. 開発者モードを ON  
-4. 「パッケージ化されていない拡張機能を読み込む」からフォルダを選択
+### インストール
+・https://chromewebstore.google.com/detail/youtube-handle-to-channel/deljipnkklbhjjoofpjgjmncpmomkndf?authuser=0&hl=ja
 
 ### 注意点
 - YouTube側のDOM構造が変わると動作しなくなる可能性があります。  
@@ -67,10 +60,7 @@ Therefore, it is **a safe and permitted form of client-side UI customization**.
 The extension observes `<yt-live-chat-item-list-renderer>` `<ytd-comments#comments>` elements and extracts display names from their public internal data.  red, ensuring full compliance with platform policies.
 
 ### Installation (Developer Mode)
-1. Download the YouTube Live Chat Name Fixer.zip and unzip 
-2. Open `chrome://extensions`  
-3. Enable Developer Mode  
-4. Load the folder as an unpacked extension  
+・https://chromewebstore.google.com/detail/youtube-handle-to-channel/deljipnkklbhjjoofpjgjmncpmomkndf?authuser=0&hl=ja
 
 ### Notes
 - May require updates if YouTube changes its internal structure  
