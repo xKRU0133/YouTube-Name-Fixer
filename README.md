@@ -12,7 +12,7 @@ YouTubeライブチャット、コメント欄に表示される **@ハンドル
 - 外部へのデータ送信・収集を一切行わない  
 - 他ユーザーの体験を変更しない  
 
-したがって、**ユーザーの閲覧環境のカスタマイズの範囲内であり合法です**。
+したがって、**ユーザーの閲覧環境のカスタマイズの範囲内であり利用規約に違反していないとにんしきしています。**。
 
 ### 主な機能
 - ハンドル名 → チャンネル表示名へ自動変換  
@@ -59,7 +59,7 @@ Therefore, it is **a safe and permitted form of client-side UI customization**.
 ### How It Works
 The extension observes `<yt-live-chat-item-list-renderer>` `<ytd-comments#comments>` elements and extracts display names from their public internal data.  red, ensuring full compliance with platform policies.
 
-### Installation (Developer Mode)
+### Installation
 ・https://chromewebstore.google.com/detail/youtube-handle-to-channel/deljipnkklbhjjoofpjgjmncpmomkndf?authuser=0&hl=ja
 
 ### Notes
