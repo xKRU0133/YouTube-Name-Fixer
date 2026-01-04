@@ -2,7 +2,7 @@
 
 ## 日本語
 
-本拡張機能「YouTube Live 名前表示」（以下「本拡張機能」）は、ユーザーの個人情報を収集、保存、送信することはありません。
+本拡張機能「YouTube @handle to Channel Name」（以下「本拡張機能」）は、ユーザーの個人情報を収集、保存、送信することはありません。
 
 本拡張機能は、YouTube 上に表示されている公開情報（例: ハンドル名、チャンネル表示名）を、
 表示上の置き換えを目的として、ユーザーのブラウザ内で一時的に参照します。
@@ -16,7 +16,7 @@
 
 ## English
 
-This extension, "YouTube Live Name Display", does not collect, store, or transmit any personal data.
+This extension, "YouTube @handle to Channel Name", does not collect, store, or transmit any personal data.
 
 The extension temporarily accesses publicly visible information on YouTube pages
 (such as handle names and channel display names) solely for the purpose of replacing on-screen text.
